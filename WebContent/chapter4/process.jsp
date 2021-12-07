@@ -7,7 +7,7 @@
  <%-- EL을 익히기 위해서 또 요청 단위로 상태 정보를 활용하는 원리를 익히기 위샤허 사용했음 --%>
 <% request.setCharacterEncoding("UTF-8"); %>
 
-<jsp:useBaen id ="book" class="bean.BookBean"/>
+<jsp:useBean id ="book" class="bean.BookBean"/>
 <jsp:setProperty property="*" name ="book"/>
 
 <%
